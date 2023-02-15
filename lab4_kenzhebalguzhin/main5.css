@@ -1,0 +1,306 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: #4b3f72;
+    color: #ffc857;
+  }
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+p {
+    display: inline-block;
+    border: #FFB703;
+    border-style: solid;
+
+}
+
+.my_image {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+ }
+
+  /* Header Styles */
+  header {
+    background-color: #e9c46a;
+    color: #f4743b;
+    text-align: center;
+    padding: 0;
+  }
+
+
+  
+  header .banner {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  header .banner img {
+    width: 100%;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9c46a;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav .logo img {
+    width: 150px;
+    height: 120px;
+    border-radius: 30%;
+    border: 5px solid #333;
+  }
+  
+  nav .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav .menu li {
+    margin: 0 10px;
+    display: flex;
+  }
+  
+  nav .menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: larger;
+  }
+  
+
+
+  
+  nav .menu a:hover {
+    color: #ff7e00;
+  }
+  
+  nav .menu .active {
+    color: #ff7e00;
+  }
+  
+  /* Main Content Styles */
+  .main_content {
+    padding: 40px;
+    width: cover;
+  }
+  
+  .main_content .topic {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .main_content article h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+.main_content article p {
+    text-align: center;
+}
+
+  .main_content article p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .main_content article p img {
+    float: left;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+    img .me {
+    width: 240px;
+    height: 320px;
+    align-items: center;
+  }
+
+ 
+  footer {  
+    padding: 10px;
+    text-align: left;
+    background-image: url(2.jpg);
+  }
+ 
+  h5 {
+    font-size: 30px;
+    margin: 1px;
+  }
+
+  footer .contacts {
+ 
+    text-align: left;
+    display: inline-block;
+   
+
+  }
+
+  footer .map {
+    display: inline-block;
+    border-radius: 50%;
+  }
+
+  footer .categories {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    height: max-content;
+    padding-left: 100px;
+    top: 10%;
+  }
+
+ div .quick_links {
+    width: 700px;
+    font-size: 50px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 200px;
+  }
+
+
+  footer ul{
+    padding: 0;
+  }
+
+  footer .quick_links li {
+    display: inline-block;
+  }
+
+li {
+    color: #f4743b;
+}
+
+a {
+    color:#ff7e00
+}
+
+table, th, td {
+    margin: 20px;
+    border: 2px solid #f4743b;
+}
+
+@media (max-width: 850px) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .banner img {
+    flex: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+  }
+
+  a img {
+    flex: auto;
+    max-width: max-content;
+    max-height: max-content;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+    background-color: #4b3f72;
+    overflow: hidden !important;
+  }
+
+  .main_content {
+    padding: 0;
+  }
+
+  .my_image {
+    width: 100%;
+  }
+
+  header .banner {
+    font-size: 1.5rem;
+  }
+
+  header .banner img {
+    width: 100%;
+    object-fit: cover;
+    border: none;
+  }
+
+  .my_image > img {
+    width: 100%;
+    margin-right: 0 !important;
+    object-fit: cover;
+  }
+
+  footer .categories, .contacts {
+    padding-left: 0;
+    width: 100%;
+  }
+
+   .map {
+    width: 100%;
+   }
+
+   .map iframe {
+    width: 100%;
+   }
+
+   #map {
+    width: 100%;
+   }
+
+   #task p img {
+    width: 100%;
+    margin-right: 0;
+   }
+
+   nav {
+    flex-direction: column;
+    padding: 0;
+   }
+
+   nav a {
+    width: 100%;
+   }
+
+   nav .logo img {
+    width: 100%;
+   }
+
+   footer ul {
+    padding-left: 1.5rem;
+   }
+
+   img {
+    margin-right: 0 !important;
+   }
+}
