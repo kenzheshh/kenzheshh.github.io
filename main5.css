@@ -45,6 +45,7 @@ p {
   header .banner img {
     border: 2px solid #333;
     border-radius: 0%;
+    width: 100%;
 
   }
   
