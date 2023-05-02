@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+
+  <link rel="stylesheet" href="starwarsintro.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <div id="start-intro-container">
+    <button id="start-intro-button">Start Intro</button>
+  </div>
+  
+
+  <div id="skip-container" style="display: none;">
+    <button id="skipIntroButton" class="skip-button">Skip Intro</button>
+  </div>
+
+  <audio id="myAudio">
+    <source src="maintheme.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <audio id="hoverAudio" preload="auto">
+    <source src="saber.mp3" type="audio/mpeg">
+  </audio>
+
+<main>
+
+
+  <!-- <div id="main-content" >
+    
+    <header>
+      <nav>
+        
+        <div class="logotop">
+          <img src="images/klogo2.png" alt="Logo" height="100px" width="100px">
+        </div>
+        
+        <div class="menulist">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+        
+
+      </nav>
+    
+      
+    </header>
+
+      <section id="home">
+        <h1>Hey, I'm Kenzhe Balguzhin</h1>
+        <h3>Frontend Developer</h3>
+      </section>
+
+      <br><br> 
+      
+      <svg width="100%" height="400" viewBox="1 40 1 70" xmlns="http://www.w3.org/2000/svg">
+        <path id="curvy-dashed-line" d="M10,50 Q40,90 70,70 T20,350" />
+      </svg>
+      
+      
+      <section id="about">
+        <h1>About Me</h1>
+        <img src="" alt="Kenzhe Balguzhin" />
+        <p>I am a web developer with experience in HTML, CSS, and JavaScript.</p>
+      </section>
+
+      
+      <br><br>
+      
+      <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>UI/UX Design</li>
+        </ul>
+        
+      </section>
+      
+      <img src="images/skills.png" alt="" id="skillsimg" >
+
+    </div> -->
+
+
+
+    <div id="star-wars-intro" class="star-wars-intro" style="display: none;" >
+
+      <p class="intro-text">
+        A long time ago in a galaxy far, <br> 
+        far away...
+      </p>
+    
+     
+      <h2 class="main-logo">
+        <img src="images/swlogo6.png" id="logo">
+      </h2>
+    
+    
+      <div class="main-content">
+    
+        <div class="title-content">
+          <p class="content-header">EPISODE IX<br/><br>
+            WEB PORTFOLIO</p>
+    
+          <br>
+    
+          <p class="content-body">
+            A young developer rises, harnessing the power of code to create innovative digital experiences that reshape the known universe. In a time of unprecedented technological progress, this intrepid developer embarks on a mission to craft awe-inspiring web solutions, destined to captivate users across the cosmos.<br><br>
+  
+            Kenzhe Balguzhin, a prodigious talent in the vast expanse of the web development galaxy, masters the art of wielding HTML, CSS, and JavaScript. He fearlessly navigates the treacherous terrain of frameworks and libraries, sculpting virtual landscapes that defy the limits of imagination.<br><br>
+  
+            Guided by an insatiable curiosity and an unwavering dedication to his craft, Kenzhe ventures forth to forge partnerships with like-minded collaborators. Together, they battle the dark forces of mediocrity, banishing dull, uninspired digital content to the far reaches of the universe.<br><br>
+  
+            Join Kenzhe in his relentless pursuit of web development excellence, and experience the thrill of exploring new frontiers in design, interactivity, and user experience. Prepare to embark on a journey of discovery that will redefine the boundaries of digital innovation, and become a part of the legend that is Kenzhe Balguzhin's Web Portfolio.<br><br>
+          </p>
+            
+        </div>
+      </div>
+    </div>
+
+
+
+  
+  <canvas id="space"></canvas>
+
+
+
+</main>
+
+  
+
+  <script src="main.js"></script>
+</body>
+</html>
